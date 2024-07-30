@@ -4,10 +4,10 @@ Welcome to the Survey Data Visualization project! This repository is your gatewa
 ## Introduction
 Understanding the distribution of demographic factors and the impacts of mental health issues is crucial for developing effective interventions. This project uses a survey dataset to create insightful visualizations, helping us comprehend these aspects with ease.
 
-Getting Started
+## Getting Started
 To get started with this project, follow these simple steps:
 
-Clone the repository:
+## Clone the repository:
 
 bash
 Copy code
@@ -31,11 +31,11 @@ pandas for data manipulation
 matplotlib for plotting graphs
 seaborn for creating attractive and informative statistical graphics
 Usage
-Load your dataset:
+## Load your dataset:
 
 Make sure your dataset file is in the correct path. The dataset should contain the necessary columns such as Gender, mental_health_consequence, Age, and treatment.
 
-Run the script:
+## Run the script:
 
 Execute the script to generate the visualizations:
 
@@ -46,7 +46,7 @@ Visualizations
 Gender Distribution Pie Chart
 This vibrant pie chart illustrates the distribution of genders in the survey dataset. It provides a quick visual overview of the gender representation within the surveyed population.
 
-python
+## python
 Copy code
 # Example 1: Pie chart of Gender distribution
 gender_counts = data['Gender'].value_counts()
